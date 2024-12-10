@@ -11,7 +11,7 @@ score_pos = (10, 10)
 life_pos = (450, 10)
 
 # Display setting
-fps = 30
+fps =30
 wall_width = 10
 scoreboard_height = 50
 gameboard_height_coefficient = 3
@@ -38,7 +38,11 @@ ball_size = (20, 20)
 
 
 # Setting for items
-item_size = (20, 20)
+
+item_size = (20, 20)  # 아이템 크기
+item_colors = [(255, 0, 0), (0, 0, 255)]  # 빨간색, 파란색 아이템
+item_drop_prob = 0.2  # 아이템 드롭 확률
+item_speed = 5  # 아이템 낙하 속도
 one_more_prob = 0.3
 fever_prob = 0.1
 add_score_prob = 0.1
